@@ -1,607 +1,623 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:800');
-@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:800");
+@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 * {
-	padding: 0;
-	margin: 0;
-	outline: none;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 ::selection {
-	background-color:#0F87FB;
-	padding:5px;
-	color:#fff;
+  background-color: #0f87fb;
+  padding: 5px;
+  color: #fff;
 }
 :root {
-	--heading-font: 'Libre Franklin', sans-serif;
-	--button-font:'Frank Ruhl Libre', serif;
-	--pargraph-font:'Ubuntu', sans-serif;
+  --heading-font: "Libre Franklin", sans-serif;
+  --button-font: "Frank Ruhl Libre", serif;
+  --pargraph-font: "Ubuntu", sans-serif;
 }
-
-
 
 /*Start Nav*/
-
-.navbar {
-	
-}
 .navbar .navbar-brand {
-	min-height: 50px;
-    min-width: 50px;
-    border-radius: 50%;
-    box-shadow: 1px 1px 7px 3px #eee;
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 7px 3px #eee;
 }
 .navbar .navbar-brand img {
-    height: 50px;
-    width: 65px;
-    display: inline-block;
-    position: relative;
-
+  height: 50px;
+  width: 65px;
+  display: inline-block;
+  position: relative;
 }
 .navbar .navbar-toggler {
-	border-radius: 0;
+  border-radius: 0;
 }
 .navbar .nav-item {
-	font-family: var(--heading-font);
-	text-align: left;
-	font-size: 1rem;
-	
+  font-family: var(--heading-font);
+  text-align: left;
+  font-size: 1rem;
 }
 .navbar .nav-item .nav-link {
-	color:#232323;
-	transition: letter-spacing .2s linear;
+  color: #232323;
+  transition: letter-spacing 0.2s linear;
 }
 .navbar .nav-item .nav-link:hover {
-	color:#511DE5!important;
-	letter-spacing:1px;
+  color: #511de5 !important;
+  letter-spacing: 1px;
 }
 .navbar .active .nav-link {
-	display:inline-block;
-	color:#511DE5!important;
-	border-bottom:2px solid #511DE5;
+  display: inline-block;
+  color: #511de5 !important;
+  border-bottom: 2px solid #511de5;
 }
 .navbar .btn {
-	font-family: var(--heading-font);
-	font-size: 1rem;
-	color:#eee;
-	border-radius: 50px;
-	padding:7px 60px;
-	background-image: linear-gradient(to right, #511DE5, #0D89FB);
+  font-family: var(--heading-font);
+  font-size: 1rem;
+  color: #eee;
+  border-radius: 50px;
+  padding: 7px 60px;
+  background-image: linear-gradient(to right, #511de5, #0d89fb);
 }
 .navbar .btn:hover {
-	background-image: linear-gradient(to left, #511DE5, #0D89FB)
+  background-image: linear-gradient(to left, #511de5, #0d89fb);
 }
-
-    
-
 
 /*Start Intro*/
 .intro {
-	margin-top:380px;
+  margin-top: 380px;
 }
 .intro .top {
-	position:relative;
-	bottom:170px;
+  position: relative;
+  bottom: 170px;
 }
 .intro h1 {
-	font-family: var(--heading-font);
-	font-size: 74px;
-	color:#1A1A1A;
-	text-align:right;
-	font-weight: bolder;
-
+  font-family: var(--heading-font);
+  font-size: 74px;
+  color: #1a1a1a;
+  text-align: right;
+  font-weight: bolder;
 }
 .intro h1 span.colorText {
-	color:#511DE5;
+  color: #511de5;
 }
 .intro a {
-	font-family: var(--button-font);
-	font-size: 14px;
-	color:#061113;
-	text-decoration:none;
-	float:right;
+  font-family: var(--button-font);
+  font-size: 14px;
+  color: #061113;
+  text-decoration: none;
+  float: right;
 }
 .intro a button {
-	letter-spacing: 5px;
-    outline: none;
-    border: none;
-    padding: 10px 20px;
-    cursor:pointer;
-    transition: all .3s linear;
+  letter-spacing: 5px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s linear;
 }
 .intro img {
-	width:100%;
-	height:auto;
+  width: 100%;
+  height: auto;
 }
 .intro a button:hover {
-	letter-spacing: 6px;
+  letter-spacing: 6px;
 }
-
-
 
 /*Start Parallax*/
 .parallax {
-	width:100%;
-	min-height:200px;
-	background-image:linear-gradient(to right, #511DE5 50%, #0B8DFC);
+  width: 100%;
+  min-height: 200px;
+  background-image: linear-gradient(to right, #511de5 50%, #0b8dfc);
 }
 .parallax h4 {
-	font-family: var(--heading-font);
-	font-size: 1.5875rem;
-	text-align:center;
-	color:#fff;
-	padding-top:55px;
+  font-family: var(--heading-font);
+  font-size: 1.5875rem;
+  text-align: center;
+  color: #fff;
+  padding-top: 55px;
 }
 .parallax img {
-	position:relative;
-	bottom: 45px;
-	left:-15px;
-	width: 200px;
-	height: auto;
+  position: relative;
+  bottom: 45px;
+  left: -15px;
+  width: 200px;
+  height: auto;
 }
-
 
 /*Start principles*/
 .principles {
-	margin:250px 0;
+  margin: 250px 0;
 }
 .principles h3 {
-	font-family: var(--heading-font);
-	font-size: 42px;
-	color:#000000;
-	text-align:left;
-	padding:15px 0;
+  font-family: var(--heading-font);
+  font-size: 42px;
+  color: #000000;
+  text-align: left;
+  padding: 15px 0;
 }
 .principles p {
-	font-family: var(--pargraph-font);
-	font-size: 14px;
-	color:#333333;
-	text-align:justify;
-	padding:15px 0;
+  font-family: var(--pargraph-font);
+  font-size: 14px;
+  color: #333333;
+  text-align: justify;
+  padding: 15px 0;
 }
 .principles span.bigText {
-	font-family: var(--heading-font);
-    font-size: 72px;
-	background: -webkit-linear-gradient( 360deg, #511DE5 40%, #0B8DFC );
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+  font-family: var(--heading-font);
+  font-size: 72px;
+  background: -webkit-linear-gradient(360deg, #511de5 40%, #0b8dfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .principles img {
-	display:block;
-	width: 65%;
-    margin-top: 150px;
+  display: block;
+  width: 65%;
+  margin: 60px auto 0;
 }
 
 /*Start company*/
 .company {
-	margin:150px 0;
+  margin: 150px 0;
 }
 .company img {
-	display: block;
-	width:150px;
-	height:130px;
-	margin:0 auto;
-	cursor:pointer;
-	transition: all .3s linear;
+  display: block;
+  width: 150px;
+  height: 130px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.3s linear;
 }
 .company img:hover {
-	box-shadow: 0 3px 7px 1px #ddd;
-	transform: translateY(-15px);
+  box-shadow: 0 3px 7px 1px #ddd;
+  transform: translateY(-15px);
 }
-
 
 /*Start approch*/
 .approch {
-	position:relative;
-	margin:350px 0;
+  position: relative;
+  margin: 350px 0;
 }
 .approch .common {
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%, -50%);
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .approch .svg1 {
-	z-index: 1;
+  z-index: 1;
 }
 .approch .svg2 {
-	z-index: 2;
+  z-index: 2;
 }
 
 .approch .content {
-	z-index: 3;
+  z-index: 3;
 }
 .approch .content p {
-	font-family: var(--pargraph-font);
-	font-size: 17px;
-	color:#fff;
-	text-align:left;
+  font-family: var(--pargraph-font);
+  font-size: 17px;
+  color: #fff;
+  text-align: left;
 }
 .approch .content span.bold {
-	font-family: var(--heading-font);
-	font-size: 17px;
-	display: block;
-	padding:10px 0;
-	
+  font-family: var(--heading-font);
+  font-size: 17px;
+  display: block;
+  padding: 10px 0;
 }
 .approch h3 {
-	font-family: var(--heading-font);
-	font-size: 42px;
-	color:#000000;
-	text-align:left;
-	padding:15px 0;
-} 
+  font-family: var(--heading-font);
+  font-size: 42px;
+  color: #000000;
+  text-align: left;
+  padding: 15px 0;
+}
 .approch a {
-	font-family: var(--button-font);
-	font-size: 14px;
-	color:#061113;
-	text-decoration:none;
+  font-family: var(--button-font);
+  font-size: 14px;
+  color: #061113;
+  text-decoration: none;
 }
 .approch a button {
-	letter-spacing: 5px;
-    outline: none;
-    border: none;
-    padding: 10px 20px;
-    cursor:pointer;
-    transition: all .3s linear;
+  letter-spacing: 5px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s linear;
 }
 .approch a button:hover {
-	letter-spacing: 6px;
+  letter-spacing: 6px;
 }
-
-
 
 /*Start efficiency*/
 .efficiency {
-	margin-bottom:150px;
+  margin-bottom: 150px;
 }
 .efficiency h3 {
-	font-family: var(--heading-font);
-	font-size: 42px;
-	color:#000000;
-	text-align:left;
-	padding:15px 0;
+  font-family: var(--heading-font);
+  font-size: 42px;
+  color: #000000;
+  text-align: left;
+  padding: 15px 0;
 }
 .efficiency p {
-	font-family: var(--pargraph-font);
-	font-size: 13px;
-	color:#010101;
-	text-align:left;
-	padding:10px 0 35px 0;
+  font-family: var(--pargraph-font);
+  font-size: 13px;
+  color: #010101;
+  text-align: left;
+  padding: 10px 0 35px 0;
 }
 .efficiency .icon {
-	overflow:hidden;
-	cursor:pointer;
+  overflow: hidden;
+  cursor: pointer;
 }
 .efficiency .icon img {
-	width:35px;
-	height: 32px;
-	padding:5px;
-	float:left;
-	margin-right:25px;
-	display: block;
-	transition:all 1s linear;
+  width: 35px;
+  height: 32px;
+  padding: 5px;
+  float: left;
+  margin-right: 25px;
+  display: block;
+  transition: all 1s linear;
 }
 .efficiency .icon:hover img {
-	-ms-transform: rotate(360deg); /* IE 9 */
-  	-webkit-transform: rotate(360deg); /* Safari */
- 	 transform: rotate(360deg); /* Standard syntax */
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Safari */
+  transform: rotate(360deg); /* Standard syntax */
 }
-.efficiency .icon p{
-	font-family: var(--heading-font);
-	font-size: 14px;
-	color:#010101;
-	font-weight: bold;
-	text-align:left;
-	line-height: 8px;
+.efficiency .icon p {
+  font-family: var(--heading-font);
+  font-size: 14px;
+  color: #010101;
+  font-weight: bold;
+  text-align: left;
+  line-height: 8px;
 }
 .efficiency img {
-	    display: block;
-    width: 95%;
-    padding: 0 20px;
-    height: auto;
-    margin: 0 auto;
+  display: block;
+  width: 95%;
+  padding: 0 20px;
+  height: auto;
+  margin: 0 auto;
 }
 .efficiency a {
-	font-family: var(--button-font);
-	font-size: 14px;
-	text-decoration:none;
+  font-family: var(--button-font);
+  font-size: 14px;
+  text-decoration: none;
 }
-.efficiency a button{
-	letter-spacing: 5px;
-    outline: none;
-    border: none;
-    padding: 10px 20px;
-    cursor:pointer;
-    color:#fff;
-    border-radius: 50px;
-    transition: all .3s linear;
-    background-image: linear-gradient(to right, #511DE5, #0D89FB);
+.efficiency a button {
+  letter-spacing: 5px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+  transition: all 0.3s linear;
+  background-image: linear-gradient(to right, #511de5, #0d89fb);
 }
 .efficiency a button:hover {
-	 background-image: linear-gradient(to right, #0D89FB, #511DE5);
+  background-image: linear-gradient(to right, #0d89fb, #511de5);
+}
+.efficiency .efficiencyImg {
+	display: block;
+	width: 105%;
+	height: auto;
+	padding: 0 20px;
+	margin: 30px auto;
 }
 
-
-
-/*Start feedback*/ 
+/*Start feedback*/
 .feedback {
-	margin:350px 0 250px 0;
+  margin: 210px 0 210px 0;
 }
 .feedback h3 {
-	font-family: var(--heading-font);
-	font-size: 42px;
-	color:#000000;
-	text-align:center;
-	padding:15px 0;
+  font-family: var(--heading-font);
+  font-size: 42px;
+  color: #000000;
+  text-align: center;
+  padding: 15px 0;
 }
 .feedback h4 {
-	font-family: var(--heading-font);
-	font-size: 22px;
-	color:#000000;
-	text-align:center;
-	padding: 15px 0;
+  font-family: var(--heading-font);
+  font-size: 22px;
+  color: #000000;
+  text-align: center;
+  padding: 15px 0;
 }
 .feedback p {
-	font-family: var(--pargraph-font);
-	font-size: 14px;
-	color:#010101;
-	text-align:center;
-	padding:10px 0 35px 0;
-	line-height: 24px;
+  font-family: var(--pargraph-font);
+  font-size: 14px;
+  color: #010101;
+  text-align: center;
+  padding: 10px 0 35px 0;
+  line-height: 24px;
 }
 .feedback img {
-    display: block;
-    margin: 70px auto 20px auto;
-    height: auto;
-    transition: all .3s linear;
-
+  display: block;
+  margin: 70px auto 20px auto;
+  height: auto;
+  transition: all 0.3s linear;
 }
 .feedback .scale:hover img {
-	transform: scale(1.2);
+  transform: scale(1.2);
 }
-
-
-
 
 /*Start inspiration*/
-.inspiration {
-	
-}
 .inspiration h1 {
-	font-family: var(--heading-font);
-	font-size: 74px;
-	color:#1A1A1A;
-	text-align:center;
-	font-weight: bolder;
-	padding-bottom: 150px; 
+  font-family: var(--heading-font);
+  font-size: 74px;
+  color: #1a1a1a;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 150px;
 }
 .inspiration h4 {
-	font-family: var(--heading-font);
-	font-size: 15px;
-	color:#000000;
-	text-align:center;
-	padding: 15px 0;
-	opacity:.5;
-	transition:all .3s linear;
+  font-family: var(--heading-font);
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  padding: 15px 0;
+  opacity: 0.5;
+  transition: all 0.3s linear;
 }
 .inspiration p {
-	font-family: var(--pargraph-font);
-	font-size: 16px;
-	color:#010101;
-	text-align:center;
-	opacity:.5;
-	transition:all .3s linear;
-
+  font-family: var(--pargraph-font);
+  font-size: 16px;
+  color: #010101;
+  text-align: center;
+  opacity: 0.5;
+  transition: all 0.3s linear;
 }
 .inspiration .small {
-	font-family: var(--pargraph-font);
-	font-size: 13px;
-	color:#010101;
-	text-align:center;
-	padding:10px 0 35px 0;
-	line-height: 24px;
-	opacity:.5;
-	transition:all .3s linear;
+  font-family: var(--pargraph-font);
+  font-size: 13px;
+  color: #010101;
+  text-align: center;
+  padding: 10px 0 35px 0;
+  line-height: 24px;
+  opacity: 0.5;
+  transition: all 0.3s linear;
 }
 .inspiration img {
-	display: block;
-	margin: 0 auto;
-	opacity:.5;
-	transition:all .3s linear;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.5;
+  transition: all 0.3s linear;
 }
-.inspiration .transparent:hover img, .inspiration .transparent:hover h4, .inspiration .transparent:hover .small {
-	opacity:1;
+.inspiration .transparent:hover img,
+.inspiration .transparent:hover h4,
+.inspiration .transparent:hover .small {
+  opacity: 1;
 }
 .inspiration .transparent:hover p:not(.small) {
-	background: -webkit-linear-gradient( 360deg, #511DE5 40%, #0B8DFC );
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(360deg, #511de5 40%, #0b8dfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
- 
 
 /*Start Question*/
 .question {
-	background-color:#fff;
-	padding:15px;
-	position:relative;
-	top: 250px;
+  background-color: #fff;
+	padding: 40px 20px;
+	margin-top: -220px;
+  position: relative;
+  top: 400px;
 }
 .question h1 {
-	font-family: var(--heading-font);
-	font-size: 74px;
-	color:#1A1A1A;
-	text-align:center;
-	font-weight: bolder;
-	padding-bottom: 250px; 
+  font-family: var(--heading-font);
+  font-size: 74px;
+  color: #1a1a1a;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 250px;
 }
 
 .question .blueTxt {
-	font-family: var(--heading-font);
-	font-size: 18px;
-	color:#0D0DFF;
-	text-align:left;
-	font-weight: bold;
-	padding-bottom: 25px
-
+  font-family: var(--heading-font);
+  font-size: 24px;
+  color: #0d0dff;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 25px;
 }
 .question p {
-	font-family: var(--pargraph-font);
-	font-size: 16px;
-	color:#010101;
-	text-align:left;
-	padding-bottom: 50px
-	
+  font-family: var(--pargraph-font);
+  font-size: 16px;
+  color: #010101;
+  text-align: left;
+  padding-bottom: 50px;
 }
 .idicator a {
-	font-family: var(--heading-font);
-	font-size: 18px;
-	color:#010101;
-	text-align:left;
-	font-weight: bold;
-	display:block;
-	padding-bottom:20px;
-	text-decoration:none;
-	position: relative;
-	transition: all .5s linear;
-
+  font-family: var(--heading-font);
+  font-size: 18px;
+  color: #010101;
+  text-align: left;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 20px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.5s linear;
 }
 .idicator a::before {
-	content: '\00bb';
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	left: -20px;
-	transition: 0.5s;
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
 }
 .idicator a:hover {
-	padding-left: 15px;
+  padding-left: 15px;
 }
 .idicator:hover a::before {
-	opacity: 1;
-	left:0;
+  opacity: 1;
+  left: 0;
 }
 
- 
 /*Start Footer*/
 
 .footer {
-	width:100%;
-	height: 650px;
-	background-position: center;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .footer .link {
-	overflow:hidden;
-	position:relative;
-	top: 550px;
+  overflow: hidden;
+  position: relative;
+  top: 550px;
 }
 .footer .left {
-	float:left;
+  float: left;
 }
 .footer .left a {
-	text-decoration:none;
-	color:#fff;
-	padding: 0 15px 0 10px;
-	font-size: 1rem;
-	transition: all .4s linear;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px 0 10px;
+  font-size: 1rem;
+  transition: all 0.4s linear;
 }
 .footer .left a:hover {
-	letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 .footer .left a p {
-	display:inline-block;
+  display: inline-block;
 }
 .footer .right {
-	float:right;
+  float: right;
 }
 .footer .right p {
-	color:#fff;
-	padding-right: 5px;
-	font-size: 1.125rem;
+  color: #fff;
+  padding-right: 5px;
+  font-size: 1.125rem;
 }
 
-
-
-
-
-
 @media only screen and (max-width: 992px) {
-	/*Start Intro*/
-	.intro {
-		margin-top:200px;
+  /*Start Intro*/
+  .intro {
+    margin-top: 50px;
+  }
+  .intro h1 {
+    text-align: center;
+		font-size: 32px;
+		line-height: 42px;
+    margin-top: 250px;
+  }
+  .intro a {
+    float: none;
+    display: block;
+  }
+  .intro a button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 	}
-	.intro h1 {
-		text-align: center;
-		font-size: 45px;
-		margin-top:250px;
-	}
-	.intro a {
-		float:none;
-		display:block;
-		
-	}
-	.intro a button {
-		display:block;
-		margin: 0 auto;
-		margin-top:50px;
-	}
-
-	/*Start parallax*/
-	.parallax {
-		padding:20px 0;
-	}
-	.parallax img {
-		top:50%;
-		left:50%;
-		transform: translate(-50%, -50%);
-		background-color: rgba(0, 0, 0, .4);
-		border-radius: 50%;
-		width:120px;
-		height:120px;
-		padding:15px;
+	.intro img {
+		display: block;
+    width: 80%;
+    height: auto;
+		margin: -50px auto 0;
 	}
 
+  /*Start parallax*/
+  .parallax {
+    padding: 50px 20px 20px 20px;
+  }
+  .parallax img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+	}
+	.parallax h4 {
+		font-size: 22px;
+		line-height: 32px;
+		padding-bottom: 30px;
+	}
 	/*Start principles*/
-	.principles img {
-		margin:0 auto;
+	.principles {
+		margin-top: 150px;
 	}
-	.principles h3,  .efficiency h3, .feedback h3 {
-		font-size: 35px;
-	}
+  .principles img {
+		width: 100%;
+		padding: 20px;
+    margin: 0 auto;
+  }
+  .principles h3,
+  .efficiency h3,
+  .feedback h3 {
+		font-size: 32px;
+		line-height: 42px;
+  }
 
-	/*Start approch*/
-	.approch img {
-		width: 400px;
+  /*Start approch*/
+  .approch img {
+		width: 350px;
+  }
+  .approch .bottom {
+    padding-top: 200px;
 	}
-	.approch .bottom {
-		padding-top:300px;
+	.approch p {
+		padding-top:20px;
 	}
-	.approch h3 {
-		text-align: center;
-		font-size: 35px;
+  .approch h3 {
+    text-align: center;
+		font-size: 32px;
+		line-height: 42px;
+  }
+  .approch a button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 	}
-	.approch a button {
-		display:block;
-		margin: 0 auto;
-		margin-top:50px;
+	/*Start efficiency*/
+	.efficiency {
+		margin-top: -150px;
+	}
+	.efficiency .icon p {
+		line-height: 18px;
+	}
+	/*Start feedback*/
+	.feedback {
+		margin-top: -50px;
+		padding: 0 20px;
+	}
+	.feedback h4 {
+		font-size: 24px;
+		line-height: 32px;
 	}
 	/*Start inspiration*/
-	.inspiration h1 {
-		font-size: 45px;
+	.inspiration {
+		margin-top: -100px;
+		padding: 0 20px;
 	}
+  .inspiration h1 {
+		font-size: 32px;
+		line-height: 42px;
+		padding-bottom: 80px;
+  }
 
-	/*Start footer*/
-	.footer .left, .footer .right {
-		float:none;
-		text-align: center;
-	}
-	/*Start question*/
-	.question h1 {
-		font-size: 45px;
-	}
-
+  /*Start footer*/
+  .footer .left,
+  .footer .right {
+    float: none;
+    text-align: center;
+  }
+  /*Start question*/
+  .question h1 {
+		font-size: 32px;
+		line-height: 42px;
+		padding-bottom: 80px;
+  }
 }
